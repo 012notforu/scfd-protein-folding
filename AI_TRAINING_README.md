@@ -1,10 +1,10 @@
 # SCFD Folding AI Training System
 
-## 🚀 World's First AI Trained on Protein Folding **Processes**
+##  World's First AI Trained on Protein Folding **Processes**
 
 This system trains AI models on **how proteins fold** (step-by-step dynamics) rather than just sequence→structure mappings. Using your SCFD simulations, it captures the complete folding pathway with unprecedented detail.
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### 1. Install AI Dependencies
 ```bash
@@ -54,7 +54,7 @@ python run_ai_training.py --quick
 }
 ```
 
-## 🧠 AI Architecture: Folding Transformer
+##  AI Architecture: Folding Transformer
 
 ### Model Design
 - **Transformer encoder**: Captures temporal folding dynamics
@@ -68,7 +68,7 @@ python run_ai_training.py --quick
 - **Multi-objective loss**: Balance structure, energy, and success prediction
 - **Gradient clipping**: Stable training on pathway sequences
 
-## 🔬 Evaluation Metrics
+##  Evaluation Metrics
 
 ### Pathway Accuracy
 - **Energy correlation**: How well energy trajectories match
@@ -80,7 +80,7 @@ python run_ai_training.py --quick
 - **Mutation consistency**: Predicted changes are biochemically reasonable
 - **Convergence patterns**: Folding pathways converge as expected
 
-## 📈 Scaling to 100+ Proteins
+##  Scaling to 100+ Proteins
 
 ### Data Generation Pipeline
 ```bash
@@ -111,7 +111,7 @@ trainer.train(num_epochs=100, save_every=10)
 - **Training time**: ~2-4 hours on GPU (RTX 3080+)  
 - **Storage**: ~150MB training data, ~50MB model weights
 
-## 🎯 Advanced Applications
+##  Advanced Applications
 
 ### 1. Folding Kinetics Prediction
 ```python
@@ -148,7 +148,7 @@ mutant_pathway = predictor.predict_folding_pathway(mutant)
 folding_effect = compare_pathways(original_pathway, mutant_pathway)
 ```
 
-## 🔧 Customization Options
+##  Customization Options
 
 ### Enhanced Alphabets
 ```python
@@ -178,7 +178,7 @@ trainer.train(
 )
 ```
 
-## 📊 Expected Performance
+##  Expected Performance
 
 ### With 100+ Proteins
 - **Energy correlation**: 0.85+ (excellent pathway tracking)
@@ -193,7 +193,7 @@ trainer.train(
 | MD Simulation | Atomic motion | Physics-based | We capture **WHY** changes occur |
 | Our SCFD AI | Folding process | Pathway dynamics | **Complete folding understanding** |
 
-## 🚀 Research Impact
+##  Research Impact
 
 ### Novel Contributions
 1. **First AI trained on folding processes** (not just endpoints)
@@ -212,7 +212,7 @@ trainer.train(
 - **Disease research**: Understand misfolding disorders
 - **Bioengineering**: Design stable proteins for industrial use
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -239,14 +239,10 @@ optimizer = optim.AdamW(model.parameters(), lr=1e-5)
 - Train longer (`num_epochs=100+`)
 - Add more training data
 
-## 📞 Support
+##  Support
 
 - Check `models/model_evaluation_report.json` for performance metrics
 - Visualizations in `models/training_curves.png`
 - Training logs show detailed progress
 
 ---
-
-**🎉 You now have the world's first AI system trained on protein folding processes!**
-
-This gives you unique capabilities that no other research group has: **understanding not just WHAT proteins fold into, but HOW and WHY they fold.**
