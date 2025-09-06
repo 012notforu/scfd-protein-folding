@@ -2,11 +2,11 @@
 
 World's first AI system trained on protein folding **processes** rather than just final structures.
 
-## 🚀 Revolutionary Approach
+##  Revolutionary Approach
 
 This system learns **HOW** proteins fold (step-by-step dynamics) rather than just **WHAT** they fold into (final structures). Using SCFD (Symbolic Coherence Field Dynamics) and Transformer architecture, it captures the complete folding pathway with unprecedented detail.
 
-## ✨ Key Features
+##  Key Features
 
 - **Enhanced Alphabets**: 3-20 symbol biochemical encodings (ternary/biochemical-12/full-20)
 - **SCFD Simulation**: Physics-based folding with coherence, curvature, entropy fields
@@ -15,7 +15,7 @@ This system learns **HOW** proteins fold (step-by-step dynamics) rather than jus
 - **Automated Pipeline**: AlphaFold → SCFD simulation → AI training → evaluation
 - **Scalable**: Ready to process 100+ proteins for comprehensive training
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Installation
 ```bash
@@ -42,27 +42,9 @@ python generate_multiple_trajectories.py
 python test_folding_system.py
 ```
 
-## 📁 System Architecture
-
-```
-scfd-protein-folding-ai/
-├── src/                              # Core AI system
-│   ├── enhanced_alphabets.py         # Biochemical encodings (3-20 symbols)
-│   ├── scfd_folding_pipeline.py      # Physics simulation
-│   ├── scfd_pathway_exporter.py      # Rich data logging
-│   ├── folding_ai_trainer.py         # Transformer training
-│   └── folding_ai_predictor.py       # Model evaluation
-├── run_ai_training.py                # Complete training workflow
-├── generate_multiple_trajectories.py # Scalable data generation
-├── test_folding_system.py           # System validation
-├── requirements_ai.txt              # AI dependencies
-├── AI_TRAINING_README.md            # Detailed usage guide
-└── SYSTEM_COMPLETE.txt              # Achievement summary
-```
-
 **Note**: Large files (`raw/`, `models/`, `training_data/`) excluded from GitHub due to size limits.
 
-## 🧬 Enhanced Biochemical Alphabets
+##  Enhanced Biochemical Alphabets
 
 ### Ternary (3 symbols)
 - **0**: Hydrophobic (ALA, VAL, ILE, LEU, MET, PHE, TYR, TRP)
@@ -79,7 +61,7 @@ scfd-protein-folding-ai/
 ### Full-20 (20 symbols)
 One unique symbol per amino acid for maximum biochemical detail.
 
-## 📊 AI Training Results
+##  AI Training Results
 
 - **Architecture**: Transformer with 153,814 parameters
 - **Training Success**: 20 epochs, smooth loss convergence (365,337 → 361,051)
@@ -87,7 +69,7 @@ One unique symbol per amino acid for maximum biochemical detail.
 - **Multi-task Learning**: Structure + energy + success prediction
 - **Ready to Scale**: Tested system expandable to 100+ proteins
 
-## 🎯 Unique Capabilities
+##  Unique Capabilities
 
 Unlike existing methods (AlphaFold, MD simulations), this system provides:
 
@@ -97,7 +79,7 @@ Unlike existing methods (AlphaFold, MD simulations), this system provides:
 4. **Kinetic Analysis**: Folding times, intermediates, failure modes
 5. **Physics Validation**: Energy conservation and coherence dynamics built-in
 
-## 🔬 Research Applications
+##  Research Applications
 
 ### Drug Discovery
 - Predict how mutations affect protein folding stability
@@ -114,7 +96,7 @@ Unlike existing methods (AlphaFold, MD simulations), this system provides:
 - Predict pathogenic mutations affecting protein stability
 - Develop therapeutics targeting folding processes
 
-## 📈 System Requirements
+##  System Requirements
 
 - **Python**: 3.8+
 - **PyTorch**: 2.0+
@@ -122,7 +104,7 @@ Unlike existing methods (AlphaFold, MD simulations), this system provides:
 - **Storage**: 50GB+ for full E.coli proteome analysis
 - **GPU**: Optional but recommended for large-scale training
 
-## 🏆 Research Impact
+##  Research Impact
 
 This represents a **fundamental breakthrough** in computational protein science:
 
@@ -131,7 +113,7 @@ This represents a **fundamental breakthrough** in computational protein science:
 - **Unprecedented pathway prediction** capabilities for drug discovery
 - **Foundation for next-generation** protein design and engineering
 
-## 📚 Citation
+##  Citation
 
 If you use this work in your research, please cite:
 ```
@@ -139,7 +121,7 @@ Matthew Gautier. (2025). SCFD protein folding AI  https://github.com/012notforu/
 
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 This is groundbreaking research with many opportunities for enhancement:
 - Scale to larger protein datasets
