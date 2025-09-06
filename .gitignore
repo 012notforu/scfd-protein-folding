@@ -1,0 +1,28 @@
+# Large data files
+raw/
+processed/
+training_data/
+models/
+*.npy
+*.pt
+*.png
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+nul
