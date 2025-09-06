@@ -19,7 +19,7 @@ This system learns **HOW** proteins fold (step-by-step dynamics) rather than jus
 
 ### Installation
 ```bash
-git clone https://github.com/YOUR_USERNAME/scfd-protein-folding-ai.git
+git clone https://github.com/012notforu/scfd-protein-folding-ai.git
 cd scfd-protein-folding-ai
 pip install -r requirements_ai.txt
 ```
@@ -135,7 +135,8 @@ This represents a **fundamental breakthrough** in computational protein science:
 
 If you use this work in your research, please cite:
 ```
-[Citation will be added upon publication]
+Matthew Gautier. (2025). SCFD protein folding AI  https://github.com/012notforu/scfd-protein-folding
+
 ```
 
 ## 🤝 Contributing
